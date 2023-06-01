@@ -2,9 +2,14 @@
   "name": "between-friends-bot",
   "version": "1.0.0",
   "description": "Discord bot for the BETWEEN FRIENDS Discord server",
+  "engines": {
+    "node": "18.x"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "giosalad",
