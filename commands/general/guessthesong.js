@@ -20,6 +20,7 @@ module.exports = {
                 songName = 'aux'
                 break;
         }
+        console.log(`guessthesong: ...${songName}...`, );
 
         let lyrics = await readFile(`${lyricsFolder}/${randomSongFile}`);
         lyrics = lyrics.filter(item => item);
